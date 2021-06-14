@@ -3,12 +3,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D4D2E4"
     tools:context=".Item1Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="343dp"
+        android:layout_height="418dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="100dp">
 
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|fill"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/mablagh"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="مبلغ"
+            android:inputType="textPersonName"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|fill"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="90dp"
+            android:drawableRight="@drawable/daste"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="دسته بندی"
+            android:inputType="textPersonName"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|fill"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="180dp"
+            android:drawableRight="@drawable/home"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="حساب"
+            android:inputType="textPersonName"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|fill"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="360dp"
+            android:drawableRight="@drawable/note"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="توضیحات"
+            android:inputType="textPersonName"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="270dp"
+            android:drawableRight="@drawable/date"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="تاریخ"
+            android:inputType="date" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#7872A7"
+        android:fontFamily="@font/lalezar"
+        android:text="ثبت هزینه"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#7872A7"
+        android:fontFamily="@font/lalezar"
+        android:text="حذف"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 </FrameLayout>
